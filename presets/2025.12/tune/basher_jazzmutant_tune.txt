@@ -60,7 +60,7 @@ set anti_gravity_gain = 120
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
 
-#$ OPTION_GROUP BEGIN: DShot options
+#$ OPTION_GROUP BEGIN (EXCLUSIVE): DShot options
     #$ OPTION BEGIN (CHECKED): DShot600
         set motor_pwm_protocol = DSHOT600
     #$ OPTION END
@@ -90,7 +90,7 @@ set pidsum_limit_yaw = 1000
 #$ OPTION_GROUP END
 
 
-#$ OPTION_GROUP BEGIN: Filters (select one)
+#$ OPTION_GROUP BEGIN (EXCLUSIVE): Filters
     #$ OPTION BEGIN (CHECKED): Normal builds 
         set simplified_master_multiplier = 75
         set dyn_notch_count = 2
