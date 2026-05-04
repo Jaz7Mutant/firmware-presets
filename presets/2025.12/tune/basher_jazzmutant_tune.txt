@@ -22,7 +22,7 @@
 #$ DESCRIPTION:
 #$ DESCRIPTION: ## Important notes:
 #$ DESCRIPTION: - Be sure you're using ESC with bidirectional DShot support (BLHeli32, AM32, BlueJay).
-#$ DESCRIPTION: - Select "Clean builds" filters option only if your build is perfect and props are always not very damaged.
+#$ DESCRIPTION: - Select "Clean builds" filter option only if your build is very clean and your props are not significantly damaged.
 #$ DESCRIPTION: - Test your quad after applying preset by flying slow for 30 seconds. Motors should stay cool. Quad should sound clean.
 #$ DESCRIPTION: - **If anything is off, don't fly it!**
 #$ DESCRIPTION:
